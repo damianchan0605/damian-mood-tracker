@@ -1,7 +1,7 @@
 <script>
 	import supabase from '$lib/db';
 	import Greeting from '$lib/Greeting.svelte';
-	import Entry from '$lib/Entry.svelte ';
+	import Entry from '$lib/Entry.svelte';
 	import EntryModal from '$lib/EntryModal.svelte';
 	async function signOut() {
 		const { error } = await supabase.auth.signOut();
